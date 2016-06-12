@@ -1,0 +1,26 @@
+{
+  "name": "aralejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuwb/aralejs-learning.git"
+  },
+  "author": "xuwb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuwb/aralejs-learning/issues"
+  },
+  "homepage": "https://github.com/xuwb/aralejs-learning#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.3.0",
+    "karma-jasmine": "^1.0.2",
+    "require-dir": "^0.3.0"
+  }
+}
