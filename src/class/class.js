@@ -56,7 +56,7 @@ Class.Mutators = {
         mix(proto, existed);
 
         proto.constructor = this;
-        this.prototype = proto;
+        this.prototype =  proto;
         this.superClass = parent.prototype;
     },
     // 扩展实例属性
