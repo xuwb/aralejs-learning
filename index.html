@@ -3,8 +3,12 @@
 <head>
     <title>测试用</title>
     <meta charset="utf-8">
+    <script type="text/javascript" src="src/build/sea.js"></script>
+    <script type="text/javascript" src="src/seajs-config.js"></script>
 </head>
 <body>
-    <script type="text/javascript" src="src/events/events.js"></script>
+    <script type="text/javascript">
+        seajs.use('arale-events');
+    </script>
 </body>
 </html>
